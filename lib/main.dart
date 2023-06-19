@@ -1,3 +1,4 @@
+import 'package:e_commerce_app/category_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -16,11 +17,13 @@ class MyApp extends StatelessWidget {
         designSize: const Size(430, 932),
     minTextAdapt: true,
     splitScreenMode: true,
-    builder: (context , child) {
-     return MaterialApp(
+    builder: (context, child) {
+      return MaterialApp(
         debugShowCheckedModeBanner: false,
-      home: Categories(),
-      );}
+        home: Categories(),
+      );
+
+    }
     );
   }
 }
